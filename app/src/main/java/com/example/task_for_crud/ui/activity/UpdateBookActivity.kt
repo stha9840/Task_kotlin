@@ -88,7 +88,7 @@ class UpdateBookActivity : AppCompatActivity() {
             insets
         }
     }
-
+//fun to uploadImage
     fun uploadImage(){
 
         imageUri?.let {
@@ -101,7 +101,7 @@ class UpdateBookActivity : AppCompatActivity() {
             }
         }
     }
-
+//function to updateBook
     fun updateBook(url : String){
         var updatedName : String= updateBookBinding.editTextNameUpdate.text.toString()
         var updatedPrice: Int = updateBookBinding.editTextPriceUpdate.text.toString().toInt()
