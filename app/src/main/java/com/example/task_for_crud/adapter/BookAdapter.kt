@@ -1,6 +1,6 @@
 package com.example.crud_34a.adapter
 
-import UpdateBookActivity
+//import UpdateBookActivity
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -11,6 +11,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.crud_34a.model.BookModel
+import com.example.crud_34a.ui.activity.UpdateBookActivity
 import com.example.task_for_crud.R
 import com.squareup.picasso.Picasso
 
@@ -75,4 +76,5 @@ ArrayList<BookModel>) :
         data.addAll(products)
         notifyDataSetChanged()
     }
+
 }

@@ -1,3 +1,5 @@
+package com.example.crud_34a.ui.activity
+import BookRepositoryImpl
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
@@ -76,6 +78,7 @@ class UpdateBookActivity : AppCompatActivity() {
         updateBookBinding.buttonUpdate.setOnClickListener {
             uploadImage()
         }
+
 
         updateBookBinding.imageUpdate.setOnClickListener {
             imageUtils.launchGallery(this)
